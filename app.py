@@ -7,7 +7,7 @@ from ultralytics import YOLO
 # PAGE CONFIG (DAPAT UNA)
 # =========================
 st.set_page_config(
-    page_title="AI Vision SaaS Pro",
+    page_title="Live Object Detection & Tracing",
     page_icon="🎥",
     layout="wide"
 )
