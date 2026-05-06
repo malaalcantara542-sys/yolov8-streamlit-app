@@ -1,9 +1,11 @@
 import streamlit as st
 from ultralytics import YOLO
-import numpy as np
-from PIL import Image
-import cv2
 
+@st.cache_resource
+def load_model():
+    return YOLO("yolov8n.pt")
+
+model = load_model()
 # =========================
 # PAGE CONFIG
 # =========================
